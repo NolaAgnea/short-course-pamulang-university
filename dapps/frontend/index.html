@@ -13,12 +13,41 @@
 
       <button id="connectBtn">Connect Wallet</button>
 
+      <div id="errorBox" class="error-box" style="display: none">
+        <p id="errorMessage"></p>
+      </div>
+
       <div class="card">
-        <p><strong>Status:</strong> <span id="status">Not Connected</span></p>
-        <p><strong>Wallet Address:</strong></p>
-        <p id="address">-</p>
-        <p><strong>Network:</strong> <span id="network">-</span></p>
-        <p><strong>Balance:</strong> <span id="balance">-</span> AVAX</p>
+        <div class="info-row">
+          <strong>Connection Status:</strong>
+          <span id="status" class="status-badge">Not Connected</span>
+        </div>
+
+        <div class="info-row">
+          <strong>Network:</strong>
+          <span id="network">-</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="info-row">
+          <strong>Wallet Address:</strong>
+        </div>
+        <p id="address" class="address-display">-</p>
+        <p id="addressFull" class="address-full" style="display: none">-</p>
+
+        <div class="info-row">
+          <strong>Balance:</strong>
+          <span id="balance">-</span> <span id="balanceLabel"></span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="student-info">
+          <p><strong>Peserta:</strong></p>
+          <p class="student-name">Kandhi Nala Dri Asmara</p>
+          <p class="student-nim">NIM: 221011401576</p>
+        </div>
       </div>
     </div>
 
