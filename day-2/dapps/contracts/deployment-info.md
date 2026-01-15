@@ -2,17 +2,18 @@
 
 ## Contract Details
 
-**Contract Address:** `0xcf08e68e3fc40c06b0f7073dc684171b7c928bf7`
+**Contract Address:** `0x8b427e7f1291dc686bd32315afafe44be50fefce`
 
 **Network:** Avalanche Fuji Testnet
 
-**Explorer:** https://testnet.snowtrace.io/address/0xcf08e68e3fc40c06b0f7073dc684171b7c928bf7
+**Explorer:** https://testnet.snowtrace.io/address/0x8b427E7F1291DC686bD32315AFafE44be50FefcE
 
 ## Transactions
 
 1. Contract Creation (Deploy) - Event: OwnerSet
-2. setValue(70) - Event: ValueUpdated(70)
-3. setValue(80) - Event: ValueUpdated(80)
+2. setValue(999) - Event: ValueUpdated(999)
+3. setValue(30) - Event: ValueUpdated(30)
+4. setMessage() - Event: Halo ini Nola
 
 ## ABI Location
 
